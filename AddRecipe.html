@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Recipe</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li> <a href="index.html">Home</a></li>
+                <li> <a href="AddRecipe.html">Add Recipe</a></li>
+                <li> <a href="recipeList.html">Recipe List</a></li>
+            </ul>
+        </nav>
+        <h1>Add Your Recipe</h1>
+    </header>
+    <section>
+        <form action="#" method="post">
+        <label for="recipe-name">Recipe Name</label><br>
+        <input type="text" id="recipe-name" name="recipe-name" required><br>
+        <label for="ingrediants">Ingrediants</label><br>
+        <TEXTarea id="ingrediants" name="ingrediants" required></TEXTarea><br> 
+        <label for="instructions">Cooking Instructions</label><br>
+        <TEXTarea id="instructions" name="instructions" required></TEXTarea><br>
+        <label for="image-url">Image</label><br>
+        <input type="file" id="image-url" name="image-url"><br>
+        <label for="catagory">Recipe Catagory</label><br>
+        <select name="catagory" id="catagory" required>
+            <option value="desserts">Desserts</option>
+            <option value="appetizers">Appetizers</option>
+            <option value="salads">Salads</option></select><br>
+        <button type="submit">Add Recipe</button>
+        </form>
+    </section>
+    <footer>2025 All Rights Reserved Created By: Mahdia Noori</footer>
+
+    
+</body>
+</html>
